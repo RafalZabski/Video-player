@@ -1,0 +1,84 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: darkcyan;
+    
+    
+}
+
+
+#video-container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+       
+}
+
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 93vh;
+
+}
+
+#progress-input{
+    width: 100vw;
+    cursor: pointer;
+}
+
+#controls{
+    
+    width: auto;
+    font-size: 30px;
+    border: 6px solid darkcyan;
+    border-radius: 6px;
+    outline: 3px solid white;
+    
+}
+
+#move-movie-forwards{
+    font-size: 30px;
+    border-radius: 6px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+    
+}
+#move-movie-backwards{
+    font-size:30px;
+    border-radius: 6px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+#play-pause{
+    font-size: 30px;
+    border-radius: 6px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+#mute{
+    font-size: 30px;
+    border-radius: 6px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+#fullscreen{
+    font-size: 30px;
+    border-radius: 6px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+#video-progress{
+    color: white;
+}
